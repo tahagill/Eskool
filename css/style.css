@@ -1,0 +1,121 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 10px 80px;
+    background-color: #282828;
+}
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.home-section{
+    margin-top: 80px;
+    background-color: #282828;
+}
+.home-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 120px;
+}
+.home-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.home-title-span{
+    color: #FE6839;
+}
+.button-container button{
+    border-radius: 50px;
+    border: 1px;
+    padding: 20px 30px;
+    gap: 10px;
+    border-color: #FE6839;
+}
+.about-section{
+    background-color: #EAEAEA;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-container-top{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+.about-container-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+
+}
+.startegies-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #EAEAEA;
+}
+.strategies-top{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.strategies-list{
+    list-style: none;
+    gap: 30px;
+
+}
+.strategies-footer{
+    background-color: #FE6839;
+    flex-wrap: wrap;
+}
+.strategies-footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.services-section{
+    background-color: #282828;
+}
+.services-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.services-list{
+    list-style: none;
+    gap: 20px;
+}
+.expert-coaching-section{
+    background-color: #E9E9E9;
+    
+}
+.expert-container{
+    display: flex;
+    flex-direction: column;
+}
