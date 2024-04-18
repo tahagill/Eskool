@@ -355,7 +355,7 @@ img {
 .new-strategies-container p{
     color: #282828;
 }
-.news-section-container {
+.news-container {
   display: flex;
   flex-direction: column;
 }
@@ -453,6 +453,20 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: 5%;
+  width: fit-content;
+}
+.client-02,
+.client-03,
+.client-04,
+.client-05{
+  max-width: 300px;
+  max-height: 450px;
+
+}
+.client-01,
+.client-06{
+  width: 800px;
+  max-height: 450px;
 }
 .clients-bottom-01,
 .clients-bottom-02 {
@@ -460,6 +474,7 @@ img {
   flex-direction: row;
   padding-left: 50%;
   padding-right: 50%;
+  justify-content: center;
 }
 .performence-container {
   display: flex;
