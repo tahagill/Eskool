@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Eskool</title>
   </head>
   <body>
@@ -28,32 +34,23 @@
       </div>
     </nav>
     <section class="home-section">
-      <div class="home-container">
-        <div class="home-left">
-          <img class="home-img" src="images/home01.svg" />
-        </div>
-        <div class="home-right">
-          <div class="home-right-title">
-            <h1 class="home-title">
-              Coached by the
-              <span class="home-title-span"
-                >worlds <br />
-                top experts
-              </span>
-              in the field
-            </h1>
-          </div>
-          <div class="home-text">
-            <p>
-              Aliquam aliquet duis odio diam <br />
-              malesuada amet vel neque. Malesuada <br />mi cum ibendum neque
-              integer interdum.
-            </p>
-          </div>
-          <div class="button-container">
-            <button class="contact-now-button">Contact Now</button>
-          </div>
-        </div>
+      <div class="home-left">
+        <img class="home-img" src="images/home01.svg" />
+      </div>
+      <div class="home-right">
+        <h1 class="home-title">
+          <span class="white-span">Coached by the</span>
+          <span class="home-title-span">worlds top experts </span>
+
+          <span class="white-span">in the field</span>
+        </h1>
+
+        <p class="home-text">
+          Aliquam aliquet duis odio diam <br />
+          malesuada amet vel neque. Malesuada <br />mi cum ibendum neque integer
+          interdum.
+        </p>
+        <button class="contact-now-button">Contact Now</button>
       </div>
     </section>
     <section class="about-section">
@@ -102,10 +99,10 @@
               Start and Grow <br />
               a Business
             </h3>
-            <img />
+            <div class="card-3-empty-div"></div>
           </div>
           <div class="card-3-bottom">
-            <button>Learn more</button>
+            <button class="contact-now-button">Learn more</button>
           </div>
         </div>
       </div>
@@ -143,15 +140,16 @@
         </div>
       </div>
     </section>
-    <section class="performence-banner-section">
-      <div class="strategies-footer-container">
-        <div class="strategies-left">
+    <section class="performence-01-section">
+      <div class="performence-01-container">
+        <div class="performence-01-empty-div"></div>
+        <div class="performence-01-left">
           <h2>
             High performence team coaching, <br />
             Join us and grow
           </h2>
         </div>
-        <div class="strategies-right">
+        <div class="performence-01-right">
           <button class="performence-button">Learn more</button>
         </div>
       </div>
@@ -183,30 +181,36 @@
       <div class="expert-container">
         <div class="expert-left">
           <div class="expert-left-top">
-            <span>EXPERT COACHING</span>
+            <span
+              ><img class="spanus-vector" src="images/spanus.svg" />EXPERT
+              COACHING</span
+            >
           </div>
           <div class="expert-left-bottom">
-            <span
-              >Ut mattis vulputate id enim lorem eu <br />
+            <p>
+              <span>
+                <img class="home-vector" src="images/Rectangle vector.svg"
+              /></span>
+              Ut mattis vulputate id enim lorem eu <br />
               nullam. Sceleris lobortis phasellus sapien<br />
-              aliquam ornare accumsan.</span
-            >
+              aliquam ornare accumsan.
+            </p>
           </div>
         </div>
         <div class="expert-right">
-          <div class="epxert-right-top">
+          <div class="expert-right-top">
             <h3>
               Leadership academy virtual, apply<br />
               today with intro price.
             </h3>
             <p>Aliquam aliquet duis odio diam malesuada amet</p>
-            <button>Learn more</button>
+            <button class="expert-button">Learn more</button>
           </div>
           <div class="expert-right-bottom">
             <div class="expert-right-bottom-top">
               <img class="expert-img" src="images/expert-01.svg" />
             </div>
-            <div class="expert-right-bottom-bottom">
+            <div class="expert-article-container">
               <article></article>
             </div>
           </div>
@@ -220,13 +224,18 @@
         </div>
         <div class="new-course-right">
           <div class="new-course-container-right-top">
-            <p class="spanus-newcourse">
-              <span class="spanus"
-                ><img
-                  class="spanus-vector"
-                  src="images/whitediamond.svg" /></span
-              >NEW COURSE
-            </p>
+            <div class="new-course-container-right-top-01">
+              <p class="spanus-newcourse">
+                <span class="spanus"
+                  ><img
+                    class="spanus-vector"
+                    src="images/whitediamond.svg" /></span
+                >NEW COURSE
+              </p>
+            </div>
+            <div class="new-course-container-right-top-02">
+              <img class="top-02-img" src="images/Group.svg" />
+            </div>
           </div>
           <div class="new-course-container-right-mid">
             <p>June 23/2023</p>
@@ -264,12 +273,16 @@
           <img class="testimonial-img" src="images/benefits-01.svg" />
         </div>
         <div class="benefits-bottom-right">
-          <h2>
-            Finally, a coaching program with a passionate<br />
-            community that helps to address essential<br />growth questions in a
-            structured way.
-          </h2>
-          <button><</button><button>></button>
+          <div class="benefits-bottom-01">
+            <h2>
+              Finally, a coaching program with a passionate<br />
+              community that helps to address essential<br />growth questions in
+              a structured way.
+            </h2>
+          </div>
+          <div class="benefits-bottom-02">
+            <button><</button><button>></button>
+          </div>
         </div>
       </div>
     </section>
@@ -305,17 +318,14 @@
     </section>
     <section class="news-section">
       <div class="news-container">
-        <div class="news-left">
-        </div>
+        <div class="news-left"></div>
         <div class="news-right">
           <div class="new-right-top">
             <h2>Latest from News</h2>
           </div>
           <div class="articles-container">
             <article class="article-01">
-              <div class="article-01-img">
-                
-              </div>
+              <div class="article-01-img"></div>
             </article>
             <article></article>
             <article></article>
@@ -412,16 +422,15 @@
     <section class="performence-section">
       <div class="performence-container">
         <div class="performence-top">
-            <div class="performence-left">
-                <div class="performence-empty">
-                </div>
-                <div class="performence-text">
-                    <h2>High performance team coaching.<br />Join us and grow.</h2>
-                </div>
+          <div class="performence-left">
+            <div class="performence-empty"></div>
+            <div class="performence-text">
+              <h2>High performance team coaching.<br />Join us and grow.</h2>
             </div>
-            <div class="performence-button-container">
-                <button class="performence-button">Learn more</button>
-            </div>
+          </div>
+          <div class="performence-button-container">
+            <button class="performence-button">Learn more</button>
+          </div>
         </div>
         <div class="performence-bottom">
           <img class="performence-img" src="images/performence-01.svg" />
@@ -436,29 +445,29 @@
           </div>
           <div class="footer-top-right">
             <div class="footer-top-right-01">
-                <h3>Contact Info</h3>
-                <p>+ 907 683 8196</p>
-                <p>828 Timbercrest Road,</p>
-                <p>Healy City, AK 99743</p>
-                <p>eskool@info.com</p>
+              <h3>Contact Info</h3>
+              <p>+ 907 683 8196</p>
+              <p>828 Timbercrest Road,</p>
+              <p>Healy City, AK 99743</p>
+              <p>eskool@info.com</p>
             </div>
             <div class="footer-top-right-02">
-                <h3>Our Online Courses</h3>
-                <p>Languages</p>
-                <p>Photography Online</p>
-                <p>Communication Skills</p>
-                <p>Entrepreneurs and Business</p>
-                <p>Design Skills</p>
-                <p>Developing Courses</p>
-                <p>Business Coaching</p>
+              <h3>Our Online Courses</h3>
+              <p>Languages</p>
+              <p>Photography Online</p>
+              <p>Communication Skills</p>
+              <p>Entrepreneurs and Business</p>
+              <p>Design Skills</p>
+              <p>Developing Courses</p>
+              <p>Business Coaching</p>
             </div>
             <div class="footer-top-right-03">
-                <h3>Social Media</h3>
-                <p>Facebook</p>
-                <p>Linkedin</p>
-                <p>instagram</p>
-                <p>Dribble</p>
-                <p>Behance</p>
+              <h3>Social Media</h3>
+              <p>Facebook</p>
+              <p>Linkedin</p>
+              <p>instagram</p>
+              <p>Dribble</p>
+              <p>Behance</p>
             </div>
           </div>
         </div>
